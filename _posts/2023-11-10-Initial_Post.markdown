@@ -16,7 +16,7 @@ comments: false
 <li><s>Follow steps to use own domain name.</s></li><br>
 <b>-----------------------------------------------------------------------</b>
 <h3>Things Completed: </h3>
-<li> - [ ] Shutdown all AWS instances.</li>
+<li>Shutdown all AWS instances.</li>
 <li>Created new CNAME and A Records.</li>
 <li>Enforce https.</li>
 <li>Install Theme.</li>
