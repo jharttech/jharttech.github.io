@@ -7,7 +7,7 @@ toc: false
 comments: false
 ---
 <h1>{{ title }}</h1>
-<h2>This is my personal public pgp Key</h1>
+<h2>This is my personal public pgp Key</h2>
 <p>The following is the ASCII-armored version of my public pgp key.  This is mainly for my own reference.  However, if you know how to use pgp keys, then my all means feel free to import my public key.</p><br>
 <code><pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.6
