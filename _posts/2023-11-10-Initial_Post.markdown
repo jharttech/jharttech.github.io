@@ -13,10 +13,10 @@ comments: false
 <h3>Things to do: </h3>
 <li> Complete skeleton of site.</li>
 <li> Start migrating old posts from old site to new site.</li>
-<li><s>Follow steps to use own domain name.</s></li>
+<li><s>Follow steps to use own domain name.</s></li><br>
 <b>-----------------------------------------------------------------------</b>
 <h3>Things Completed: </h3>
-<li>Shutdown all AWS instances.</li>
+<li> - [ ] Shutdown all AWS instances.</li>
 <li>Created new CNAME and A Records.</li>
 <li>Enforce https.</li>
 <li>Install Theme.</li>
