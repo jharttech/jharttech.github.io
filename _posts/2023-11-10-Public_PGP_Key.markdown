@@ -1,0 +1,59 @@
+---
+title: Public pgp Key
+date: 2023-11-10
+categories: [pgp, Keys]
+tags: [pgp, keys]
+toc: false
+comments: false
+---
+<h1>{{ title }}</h1>
+<h2>This is my personal public pgp Key</h1>
+<p>The following is the ASCII-armored version of my public pgp key.  This is mainly for my own reference.  However, if you know how to use pgp keys, then my all means feel free to import my public key.</p><br>
+<code><pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: SKS 1.1.6
+Comment: Hostname: pgp.mit.edu
+
+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
+XA==
+=SA3U
+-----END PGP PUBLIC KEY BLOCK-----</pre></code>
