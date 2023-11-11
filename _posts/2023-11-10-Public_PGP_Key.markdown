@@ -9,7 +9,7 @@ comments: false
 <h1>{{ title }}</h1>
 <h2>This is my personal public pgp Key</h2>
 <p>The following is the ASCII-armored version of my public pgp key.  This is mainly for my own reference.  However, if you know how to use pgp keys, then my all means feel free to import my public key.</p><br>
-<code><pre>-----BEGIN PGP PUBLIC KEY BLOCK-----
+<pre><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: SKS 1.1.6
 Comment: Hostname: pgp.mit.edu
 
@@ -56,4 +56,4 @@ raBfaUz4+S8ETcigIuC/RLP2Eduq4DC3+QPEgk3ew9RbDEaetmWwG8U+pyOY+iMRM0CPZ5j3
 r80R4Ojq+d50p5W2zYmNSmGAuTM7IiX9J6LgFOGWNEzIImAjHMpCTSUo3V+4o3FoXoBI+TVw
 XA==
 =SA3U
------END PGP PUBLIC KEY BLOCK-----</pre></code>
+-----END PGP PUBLIC KEY BLOCK-----</code></pre>
