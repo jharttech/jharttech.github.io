@@ -7,7 +7,6 @@ toc: false
 comments: false
 ---
 [Disclaimer]({% link _tabs/disclaimer.md %})
-<h1>{{ page.title }}</h1>
 <h2>This tutorial can be helpful for making sure your data does not fall into someone else's hands when disposing of old hard drives or computers.</h2>
 <p>In today's throwaway world, most of us have faced the issue of buying a new computer and getting rid of the old one. These old computers are ripe for the picking for those who know how to recover information from the old computer's hard drive. Most users do not even think or realize the amount of personal data that their old hard drive may contain. This tutorial will show you how to overwrite the data on your old hard drive with a series of random characters in no particular order. This will make it very difficult (NOT IMPOSSIBLE) to recover the data from the hard drive using basic tools.</p>
 <p>I must mention that the process used in this article is only a small, first line of defense against data theft when disposing of an old computer. There are more advanced steps that may need to be taken by a professional depending on your specific needs, but this will get most average users started on keeping their old data out of the wrong hands.</p>
