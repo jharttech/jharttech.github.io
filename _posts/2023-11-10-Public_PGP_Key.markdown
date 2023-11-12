@@ -1,5 +1,5 @@
 ---
-title: Public pgp Key
+title: Public PGP Key
 date: 2023-11-10
 categories: [pgp, Keys]
 tags: [pgp, keys]
