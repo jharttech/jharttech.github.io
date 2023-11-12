@@ -3,7 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-<h1>Disclaimer<h1>
 <h3><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> Information on this Site is Copyright (C) 2009-2024 JHart Technology.</h3>
 <p>This information is free; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.</p>
 <p>This work is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
