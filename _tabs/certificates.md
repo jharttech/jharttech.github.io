@@ -4,8 +4,8 @@ icon: fas fa-info-circle
 order: 6
 ---
 
-<p>While I do not intentionally hunt certificates, I do continually take programs, courses, or classes to continue increasing my skills and understaning of the technology world.  If that conitnual learning happens to add a certificate to go with the knowledge, then why would I not gain the certificate.</p>
-<p>This page will be where I keep a running tab of certificates that I have attanined.  Some hold weight in the industry, others are for my own acheivement.</p>
+<p>While I do not intentionally hunt for certificates, I continually take programs, courses, or classes to continue increasing my skills and understanding of the technology world. If that continual learning happens to add a certificate to go with the knowledge, then why would I not gain the certificate?</p>
+<p>This page will be where I keep a running tab of certificates that I have attained. Some hold weight in the industry, while others are for my own achievement</p>
 
 ---
 
