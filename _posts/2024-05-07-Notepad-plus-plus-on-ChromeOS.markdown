@@ -1,26 +1,32 @@
 ---
-title: Debian 12 Notes for Adding Included Commands to the Path Environment
-date: 2023-12-01
-categories: [Linux, Notes]
-tags: [linux, notes, debian]
+title: How to install and run Notepad++ on a ChromeOS environment with the Linux Development Environment turned on
+date: 2024-05-07
+categories: [Linux, ChromeOS, Notes, Notepad++]
+tags: [linux, notes, ChromeOS, Notepad++]
 toc: false
 comments: false
 ---
 [Disclaimer]({% link _tabs/disclaimer.md %})
-<h2>This is a small note for myself or anyone else who finds they need a command in Debian 12, but get a "no command found" error.</h2>
-<p>In order to use commands like usermod, shutdown, reboot, and many others, we need to add the directory that stores these programs to the PATH Environment. Debian 12 leaves this directory out of the PATH by defaut.</p>
-<p>Most of the programs mentioned above set in "/usr/sbin". If you type the following command into the terminal you will see <b>/usr/sbin</b> is not currently in the PATH.</p>
-<blockquote class="prompt-tip"><pre><code>$ echo $PATH</code></pre></blockquote>
-<p>In order to use them without needing the FQP we will add that path and directory to the PATH. To do this we will run the following command in the terminal:</p>
-<blockquote class="prompt-tip"><pre><code>$ export PATH=$PATH:/usr/sbin</code></pre></blockquote>
-<p>Now if we run the <b>echo $PATH</b> command above, we should now see /usr/sbin in the PATH.</p>
-<blockquote class="prompt-tip">Note: This will only last for the current shell session.  If you want to make the change permanent please continue below.</blockquote>
-<p>To make the change to the PATH permanent we need to make a change to the <b>~/.bashrc</b> file (or .zshrc if using zsh).  To make this change we will use "vim" (you can use nano or other terminal editors) to open the <b>~/.bashrc</b> file:
-<blockquote class="prompt-tip"><pre><code>$ vim ~/.bashrc</code></pre></blockquote>
-<p>Next we will add a line to the bottom of the open <b>~/.bashrc</b>:
-<blockquote class="prompt-tip"><pre><code>$ ...
-$ #Adding /usr/sbin to this users path
-$ export PATH=$PATH:/usr/sbin</code></pre></blockquote>
-<p>Save and close the file.  We now need to make sure our shell is aware of the change.  To do that we run the following command:</p>
-<blockquote class="prompt-tip"><pre><code>$ source ~/.bashrc</code></pre></blockquote>
-<p>That's it.  You should now have the <b>/usr/sbin</b> directory in your path across each shell session.</p>
+<h2>Script for heavy lifting of installing and setup of Notepad++ using Linux Development Environement on ChromeOS</h2>
+
+# Notes
+This bash script is designed with a special use case.  I have a computer lab that has been converted to ChromeOS using the [FlexOS](https://chromeenterprise.google/intl/en_uk/os/chromeosflex/) download and setup.  All of the needed tools for the lab are web based with the exception of notepad++. I know there are alternatives to notepad++ but the curriculumn being used was designed specifically for notepad++.
+This script installs the snap version of notepad++ as it has the needed wine packages and configurations packaged.  
+
+# Setup
+The following are the steps to get notepad++ on a ChromeOS environment that has Linux Development Environment enabled.
+
+1. Go to ChromeOS settings, search for linux, then under the Linux Development Environment click the "Setup" button.  Follow the onscreen setup.
+2. Use the ChromeOS app drawer to search for "Terminal" and launch it.  Click on "penquin" to launch your linux terminal.
+3. Once linux has been configured and installed, type the following command and press enter to download the install script:
+    <blockquote class="prompt-tip"><pre><code>$ wget https://raw.githubusercontent.com/jharttech/notepad_pp_on_ChromeOS/main/install.sh</code></pre></blockquote>
+4. Now that the install.sh script has been downloaded onto ChromeOS, you will need to open the Files application on ChromeOS and move the install.sh file from Downloads to Linux Files.
+5. Type the following command in the terminal and press enter to make sure the install.sh file exists in your linux home directory.  If it does not exist then something in the steps above has gone wrong.
+    <blockquote class="prompt-tip"><pre><code>$ ls</code></pre></blockquote>
+6. Now make the install.sh file executable by typing the following command and pressing enter:
+    <blockquote class="prompt-tip"><pre><code>$ chmod +x install.sh</code></pre></blockquote>
+7. Run the install script by typing the command below and pressing enter:
+    <blockquote class="prompt-tip"><pre><code>$ ./install.sh</code></pre></blockquote>
+8. If the install script completed without issue then notepad++ should now be listed in the ChromeOS app drawer under the linux apps area.
+
+Feel free to adjust the install script to meet your own needs, the line that executes the <b>xhost +</b> command in particular as this is generic for this project and can be a security risk.
