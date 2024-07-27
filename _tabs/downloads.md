@@ -8,4 +8,4 @@ order: 7
 
 ---
 
-<p><a href="">2004 Senior video</a><br>
+<p><a href="https://drive.google.com/file/d/1aO1RlIpFfsw6m8h5OAGAyw32N2Wl0pCa/view?usp=sharing">2004 Senior video</a><br>
