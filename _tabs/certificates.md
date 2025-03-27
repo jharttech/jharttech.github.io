@@ -36,10 +36,7 @@ Developer Certification: JavaScript Algorithms and Data Structures: Awarded by f
 
 ---
 
-<<<<<<< HEAD
-=======
-##Certificate of Completion: Complete Cyber Security 101 Path: Awarded by Try Hack Me - [Certificate]({% link assets/img/certs/THM-Cybersecurity101.pdf %})<br>
->>>>>>> next
+Certificate of Completion: Complete Cyber Security 101 Path: Awarded by Try Hack Me - [Certificate]({% link assets/img/certs/THM-Cybersecurity101.pdf %})<br>
 Certificate of Completion: CompTIA Pentest+ Learning Path: Awarded by Try Hack Me - [Certificate]({% link assets/img/certs/THM-CompTIA_Pentest.pdf %})<br>
 Certificate of Completion: Jr Penetration Tester Learning Path: Awarded by Try Hack Me - [Certificate]({% link assets/img/certs/THM-Jr_Pen_Tester.pdf %})<br>
 Certificate of Completion: Introduction to Cyber Security Learning Path: Awarded by Try Hack Me - [Certificate]({% link assets/img/certs/THM-Intro_Cyber_Sec.pdf %})<br>
