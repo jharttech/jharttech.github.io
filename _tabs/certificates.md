@@ -14,7 +14,10 @@ CS50 Intro to Computer Science: Awarded from HarvardX - [Certificate]({% link as
 CS50P Intro to Programming with Python: Awarded from Cambridge, Massachusetts - [Certificate]({% link assets/img/certs/CS50P.pdf %})<br>
 CS50P Intro to Programming with Python: Awarded from HarvardX - [Certificate]({% link assets/img/certs/CS50P-HarvardX.pdf %})<br>
 Computer Science for Python Programming Professional Certificate: Awarded from HarvardX - [Certificate]({% link assets/img/certs/CS50Professional.pdf %})<br>
- 
+CS50R Introduction to Programming with R: Awarded from Cambridge, Massachusetts - [Certificat]({% link assets/img/certs/CS50R.pdf %})<br>
+CS50R Introduction to Programming with R: Awarded from HarvardX - [Certificate]({% link assets/img/certs/HarvardX_CS50R_Cert.pdf %})<br>
+Computer Science for Data Science Professional Certificate: Awarded from HarvardX - [Certificate]({% link assets/img/certs/CS50RProfessional.pdf %})<br>
+
  ---
 
 Certified Linux Pro: Awarded from TestOut-CompTIA - [Certificate]({% link assets/img/certs/LinuxPro.pdf %})<br>
