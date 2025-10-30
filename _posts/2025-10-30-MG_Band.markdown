@@ -6,80 +6,19 @@ tags: [Misc]
 toc: false
 comments: false
 ---
-<style>
-    /* Basic reset to remove default browser margins */
-    /* Note: Your site's main theme might override some of this */
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        background-color: #f4f4f4;
-        color: #333;
-    }
+This is "front matter". It tells Jekyll what to do.
 
-    /* A wrapper for your page content */
-    .content-wrapper {
-        max-width: 1200px; /* Sets a max width for very large desktop screens */
-        margin: 20px auto; /* Centers the content */
-        padding: 0 15px; /* Adds space on the sides for mobile */
-    }
+This is the most important line:
 
-    /* * This is the "magic" container for the video.
-     * It uses the padding-top trick to create a 16:9 aspect ratio.
-     * (9 / 16 = 0.5625, which is 56.25%)
-    */
-    .video-container {
-        position: relative;
-        width: 100%;
-        padding-top: 56.25%; /* 16:9 Aspect Ratio */
-        overflow: hidden;
-        background-color: #000; /* Black background while video loads */
-        border-radius: 8px; /* Optional: adds rounded corners */
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Optional: adds a nice shadow */
-    }
+layout: video title: My Fullscreen Video
 
-    /* * This rule makes the iframe fill the .video-container
-     * so it's perfectly responsive.
-    */
-    .video-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: 0; /* Removes the default iframe border */
-    }
+<!--
+This HTML will be injected into the {{ content }} area
+of your new _layouts/video.html file.
+-->
 
-    /* Styles for the helper text */
-    .content-wrapper h1 {
-        text-align: center;
-    }
-    .content-wrapper p {
-        text-align: center;
-        font-size: 1.1em;
-        line-height: 1.6;
-    }
-</style>
-
-<!-- Paste this HTML content directly into your .md file -->
-<div class="content-wrapper">
-    <h1>My Dynamic Video Page</h1>
-    <p>This video player will resize to fill the width of its container,
-       maintaining its aspect ratio on all devices, from mobile to desktop.
-    </p>
-
-    <!-- 
-      This is the HTML for the player.
-      Just replace VIDEO_ID_HERE with your YouTube video's ID.
-    -->
-    <div class="video-container">
-        <iframe 
-            src="https://www.youtube.com/embed/VIDEO_ID_HERE?autoplay=1&mute=1"
-            frameborder="0"
-            allow="autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-        </iframe>
-    </div>
-    
-    <p style="margin-top: 20px;">You can add more text or other content
-       above or below the video wrapper.
-    </p>
+<div class="video-container">
+<iframe
+src="https://www.google.com/search?q=https://www.youtube.com/embed/x4_8ClfOp0s%3Fautoplay%3D1%26mute%3D1" allow="autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
 </div>
