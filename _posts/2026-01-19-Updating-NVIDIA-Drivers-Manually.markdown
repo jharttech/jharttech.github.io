@@ -10,7 +10,7 @@ comments: false
 <h2>This is a small note for myself or anyone else who finds they need to update their Kubuntu 24.04 system's NVIDIA driver manually instead of using the one provided in "ubuntu-drivers" or "apt".</h2>
 <p>First, go find the Nvidia Driver that you want to install.  The download will be a "DRIVER_VERSION".run file.</p>
 <p>Next, make the .run file executable so that we can run the file.</p>
-<blockquote class="prompt-tip"><pre><code>$ chmod +x "DRIVER_VERSION".run</code></pre></blockquote>
+<blockquote class="prompt-tip"><pre><code>$ chmod +x /home/$USER/path/to/"DRIVER_VERSION".run</code></pre></blockquote>
 <p>Now stop the display manager so we can cleanly install the driver. To do this use one of the TTY terminals by pressing "CTRL + ALT + F2 thru F6". In the TTY Terminal log in and run:</p>
 <blockquote class="prompt-tip"><pre><code>$ sudo systemctl stop sddm.service</code></pre></blockquote>
 <p>Once the display manager is stopped run the driver installer.</p>
