@@ -23,8 +23,8 @@ comments: false
 <p>The last step that I prefer is disabling the apt package version of the driver so that updating my system does not break the driver version I have installed.  To do this you tell apt to mark the package
 and modules as manual:</p>
 <blockquote class="prompt-tip">NOTE: The command below is using the nvidia-driver-570-open package and modules to be set to manual</blockquote>
-<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual "nvidia-driver-570-open"</code></pre></blockquote>
-<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual "linux-modules-nvidia-driver-570-open-generic"</code></pre></blockquote>
+<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual nvidia-driver-570-open</code></pre></blockquote>
+<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual linux-modules-nvidia-driver-570-open-generic</code></pre></blockquote>
 <p>I also like to set the nvidia-prime tool to manual as I had issues with this breaking things in the past.</p>
-<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual "nvidia-prime"</code></pre></blockquote>
+<blockquote class="prompt-tip"><pre><code>$ sudo apt-mark manual nvidia-prime</code></pre></blockquote>
 <blockquote class="prompt-tip">NOTE: As always, I take no responsibility of any changes you make to your system and I point you to the disclaimer link to the top of this page!!!</blockquote>
