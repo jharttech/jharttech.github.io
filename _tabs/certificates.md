@@ -30,6 +30,10 @@ Certificate of Completion: Ethical Hacker Pro - Combat Malware: Awarded by TestO
 
 ---
 
+RH006x: Fundamentals of Red Hat Enterprise Linux 9: Awarded by Red Hat - [Certificate]({% link assets/img/certs/Red_Hat_RH066x_Certificate.pdf %})<br>
+
+---
+
 Certificate of Completion: Cisco - Introduction to Cybersecurity: Awarded by Cisco Networking Academy - [Certificate]({% link assets/img/certs/IntroToCybersecurity.pdf %})<br>
 
 ---
